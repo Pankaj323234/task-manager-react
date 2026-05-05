@@ -29,3 +29,55 @@ li {
   list-style: none;
   margin: 10px 0;
 }
+
+
+body.dark {
+  background-color: #1e272e;
+  color: white;
+}
+body.dark p , body.dark span , body.dark h1 { color:#000;}
+
+body.dark input {
+  background: #2f3640;
+  color: white;
+  border: 1px solid #555;
+}
+
+body.dark button {
+  background: #444;
+  color: white;
+}
+
+body.dark li {
+  border-bottom: 1px solid #555;
+}
+
+.app {
+  display: flex;
+}
+
+.sidebar {
+  width: 200px;
+  background: #222;
+  color: white;
+  padding: 15px;
+  height: 100vh;
+}
+
+.sidebar button {
+  display: block;
+  margin: 10px 0;
+  width: 100%;
+}
+
+.container {
+  flex: 1;
+  padding: 20px;
+}
+
+.header {
+  background: #4CAF50;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
